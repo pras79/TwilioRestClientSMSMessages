@@ -30,7 +30,8 @@ public class TwillioTest  {
 	 List<NameValuePair> params = new ArrayList<NameValuePair>(); 
 	 params.add(new BasicNameValuePair("To", "6105642261")); 
 	 params.add(new BasicNameValuePair("From", "+14848689244")); 
-	 params.add(new BasicNameValuePair("Body", "Hello Bhashar Godavarthi, \n" +
+	 params.add(new BasicNameValuePair("Body", "Hello "
+                 + " Godavarthi, \n" +
 "This to inform you that we have a great opportunity to for you as a test lead in Vanguard \n" +
 "Would be interested if so please send your updated resume \n" +
 "John.vsmith@vanguard .com\n" +
