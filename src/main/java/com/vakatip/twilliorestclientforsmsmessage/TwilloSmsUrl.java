@@ -32,7 +32,7 @@ public class TwilloSmsUrl {
     // check out the list resource examples on this page
     ShortCode shortCode = client.getAccount().getShortCode("AC7c6c0996adff409aeef17883a5c2c3ac");
     System.out.println ("exeucting values ::::" + shortCode.getShortCode()) ;
-        
+       
     
     // Build a filter for the ShortCodeList
     List<NameValuePair> params = new ArrayList<NameValuePair>();
